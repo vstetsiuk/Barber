@@ -1,0 +1,77 @@
+.main__title{
+   min-width: 1440px;
+   width: 1680px;
+   height: 880px;
+
+}
+
+.main__background{
+   width: 100%;
+   min-height: 880px;
+   background: url(../images/main-photo.png) no-repeat center center fixed ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+   
+
+}
+
+/* text */
+
+.text-wrapper{
+   margin: 0 auto;
+   text-align: center;
+   padding: 13%;
+}
+
+.main__title-1{
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 100px;
+   line-height: 199.42%;
+   /* or 199px */
+   text-align: center;
+   letter-spacing: 0.08em;
+   color: #FFFFFF;
+   text-decoration-color: 1px solid #000000;
+   text-shadow: 5px 7px 5px #000000;
+}
+
+.main__subtitle1{
+   font-family: 'Bayon';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 10px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+text-decoration-color: 1px solid #000000;
+text-shadow: 5px 4px 4px #000000;
+}
+
+.main__subtitle{
+   margin-bottom: 100px;
+}
+
+.main__button{
+   width: 300px;
+   height: 50px;
+   background: #FFFFFF;
+   box-shadow: 2px 4px 4px #000000;
+   border-radius: 10px;
+   text-align: center;
+   margin: 0 auto;
+}
+
+.main__button-link{
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 54px;
+   letter-spacing: 0.05em;
+   text-decoration: none;
+   color: #000000;
+   }

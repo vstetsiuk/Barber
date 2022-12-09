@@ -1,0 +1,15 @@
+@import url(./header.css);
+@import url(./title.css);
+@import url(./book.css);
+@import url(./about.css);
+@import url(./masters.css);
+
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.wrapper{
+   width: 1440px;
+}

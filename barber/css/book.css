@@ -1,0 +1,106 @@
+.book__wrapper{
+   min-width: 1440px;
+   width: 1680px;
+   height: 1000px;
+}
+
+.book-background{
+   width: 100%;
+   min-height: 1000px;
+   background: url(../images/book-back.svg) no-repeat center center  ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;   
+   padding-top: 35px; 
+   padding-bottom: 20px; 
+}
+
+/* book-form */
+
+.book__form{
+   min-width: 1250px;
+   max-width: 1300px;
+   background-color: aqua;
+   margin: 0 auto;
+   min-height: 700px;
+   max-height: 750px;
+}
+
+.book__form-back{
+   min-height: 700px;
+   max-height: 750px;
+   background: url(../images/book-back-input.svg) no-repeat center center  ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   box-shadow: 0 0 70px 30px #000;
+}
+
+/* text input */
+
+.book__form-info-title{
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 72px;
+   letter-spacing: 0.05em;
+   color: #FFFFFF;
+   padding-left: 70px;
+   padding-top: 20px;
+
+}
+
+.input-form__name{
+   font-family: 'Bayon';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 54px;
+   letter-spacing: 0.05em;
+   color: #ffffffdf;
+}
+
+.input-form-area {
+   width: 455px;
+   height: 35px;
+}
+
+.input-form-area input{
+   border: none;
+   background: rgba(217, 217, 217, 0.4);
+   width: 455px;
+   height: 35px;
+   font-size: 25px;
+   padding-left: 10px;
+   color: rgba(255, 255, 255, 0.8);
+}
+
+.input-form-area select{
+   border: none;
+   background: rgba(217, 217, 217, 0.4);
+   width: 455px;
+   height: 35px;
+   font-size: 25px;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: rgba(255, 255, 255, 0.8);
+}
+
+.input-form{
+   padding-left: 50px;
+}
+
+.input-form-areas{
+   margin-bottom: 5px;
+}
+
+.input-form-areas:last-child{
+   margin-bottom: 0px;
+}
