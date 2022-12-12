@@ -1,2 +1,0 @@
-# Barber
-Barbershop
