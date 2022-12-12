@@ -1,0 +1,101 @@
+.contact{
+   min-width: 1440px;
+   width: 1680px;
+   height: 1000px;
+}
+
+.contact__back{
+   margin-top: 100px;
+   background: url(../images/contact-back.svg) no-repeat center center  ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+   height: 1100px;
+}
+
+/* flex */
+
+.contact__wrapper{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 4%;
+}
+
+/* info */
+.contact__info{
+   background: rgba(0, 0, 0, 0.5);
+   width: 500px;
+   height: 900px;  
+   padding: 50px;  
+   padding-top: 100px;
+}
+
+.contact__info-title{
+   font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 47px;
+/* text-align: center; */
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+margin-bottom: 105px;
+
+}
+
+.main-text-title{
+
+font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height */
+/* text-align: center; */
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+margin-bottom: 40px;
+
+}
+
+.main-text{
+   margin-bottom: 50px;
+   padding-left: 20px;
+}
+
+.main-text-li{
+   font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #ffffffb1;
+}
+
+.main-text-phone{
+   font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #ffffffb1;
+}
+
+.main-text-adress-info ul{
+   padding-left: 50px;
+}
+
+.main-text-phone-info ul{
+   padding-left: 50px;
+}
+
+.main-text-work-info ul{
+   padding-left: 50px;
+}

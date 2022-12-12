@@ -3,6 +3,9 @@
 @import url(./book.css);
 @import url(./about.css);
 @import url(./masters.css);
+@import url(./contact.css);
+@import url(./price.css);
+@import url(./footer.css);
 
 *{
    box-sizing: border-box;

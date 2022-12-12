@@ -30,7 +30,7 @@
    font-family: 'Bayon';
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
+font-size: 65px;
 line-height: 108px;
 text-align: center;
 letter-spacing: 0.05em;
@@ -54,4 +54,45 @@ text-shadow: 1px 1px #FFC600;
 
 .masters__title{
    text-align: center;
+   background-color: black;
+   box-shadow: 0px 2px 20px 10px #FFC600;
+   border-radius: 5px;
+   width: 500px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+}
+
+
+/* img-pers */
+.masters__info-form{
+   height: 601px;
+   width: 400px;
+}
+.form-pers1{
+   background: url(../images/person1.svg);
+}
+
+.form-pers2{
+   background: url(../images/person2.svg);
+}
+
+.form-pers3{
+   background: url(../images/person3.svg);
+}
+
+.info-img img{
+   padding-top: 20px;
+}
+
+/* font */
+.info-text{
+   font-family: 'Fauna One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+margin-top: 20px;
+color: #FFC600;
+
 }
